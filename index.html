@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--CSS Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav>
+    <h1>Shayan Saberi-Nikou</h1>
+    <ul class="navigation">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <div>
+    <section class="hero" id="about">
+      <img src="headshot1.png" alt="me" height="500" width="500" loading="lazy" class="hero-img" />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          A highly motivated Computer Science undergraduate with a demonstrated commitment to learning new technologies and processes. Exhibits strong critical thinking, problem-solving, and communication skills, essential in thriving within an agile environment. Eager to apply academic knowledge in a corporate setting, continuously seeking opportunities to grow both personally and professionally.
+        </p>
+      </div>
+    </section>
+
+
+    
+    <!-- More about -->
+
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        As a dedicated Computer Science student, a strong foundation in software development and computational problem-solving has been established. Recognized for exceptional teamwork abilities, excelling in collaborative environments is a distinct strength. Noted for clear and effective communication and driven by insatiable curiosity, there's a continuous pursuit of opportunities to expand knowledge and contribute to innovative projects.
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header"> Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img src="c++.png" alt="c++" loading="lazy" class="icon icon-card" />
+          <img src="java.png" alt="java" loading="lazy" class="icon icon-card" />
+          <img src="aws.png" alt="AWS" loading="lazy" class="icon icon-card" />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img src="js.png" height = "300" width="300" alt="Js" loading="lazy" class="icon icon-card" />
+          <img src="html_css.png" alt="html/css" width="300" height="300" loading="lazy" class="icon icon-card" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          
+          <h3 class="project-title">Physics Engine</h3>
+          <p class="project-details">
+            This C++ project demonstrates the use of linked lists for handling polynomial equations. It features two main classes: Node, representing individual polynomial terms, and LinkedList, managing a collection of these nodes as a complete polynomial. The program reads polynomials from a file, parses them into linked lists, and evaluates them. Key features include dynamic memory management, operator overloading for intuitive operations like adding terms or printing polynomials, and efficient manipulation of linked lists. This implementation highlights practical applications of object-oriented programming and data structures in a mathematical context.
+          </p>
+          <a href="https://github.com/Shayansn/Physics-Engine" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          
+          <h3 class="project-title">Ticket Reservation System</h3>
+          <p class="project-details">
+            This Java project is a comprehensive application designed to efficiently manage and book seats in an auditorium. It consists of several core components, including the Order, Node, Seat, and Auditorium classes, each serving a specific purpose. The Order class handles user orders, capturing user details, seat selections, and ticket types, and supports operations such as adding, deleting, and viewing orders. The Node class represents seats in the auditorium through a two-dimensional linked list, facilitating easy traversal and manipulation of the seating grid. The Seat class encapsulates seat details, including row, position, and ticket type. The Auditorium class manages the seating grid, allowing for the building of the grid from a file, seat availability validation, reservation, and release. It also offers functionality to find the best available seats based on user preferences and generates visual representations of the seating arrangement. The Main class serves as the application's entry point, handling user login, seat reservation, order management, and administrative functions like generating reports. This project demonstrates strong adherence to object-oriented programming principles, effective data structure manipulation, and user interaction in a practical real-world scenario.
+          </p>
+          <a href="https://github.com/Shayansn/Ticket-Reservation-System" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          
+          <h3 class="project-title">Sudoku Validation</h3>
+          <p class="project-details">
+This Sudoku validation application is a powerful tool that checks the integrity of Sudoku puzzles from various input files, verifying if they are solved, valid, or invalid. It analyzes the puzzles, ensuring they adhere to Sudoku rules and reports detailed error information if inconsistencies are found. This tool is essential for Sudoku enthusiasts and developers working with Sudoku puzzles in different formats, providing reliable validation and analysis capabilities.
+          </p>
+          <a href="https://github.com/Shayansn/Sudoku-Validation" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+  </div>
+ 
+  <!-- Social accounts - Fixed to the right -->
+  <section class="contact" id="contact">
+    <h2>Get In Touch With Me!</h2>
+    <!-- <div class="socials"> -->
+    <div style="text-align:center">
+      <a href="mailto:shayansn48@gmail.com" target="_blank"><img src="gmail.png" alt="gmail" width="100" height="100" loading="lazy"
+          class="socicon" /></a>
+      <a href="https://github.com/Shayansn" target="_blank"><img src="github.png" height="100" width="100" alt="github" loading="lazy"
+          class="socicon" /></a>
+      <a href="https://www.linkedin.com/in/shayansaberinikou/" target="_blank"><img src="linkedin.png" height="100" width="100"alt="Linkedin" loading="lazy"
+          class="socicon" /></a>
+      
+    </div>
+
+  </section>
+  <!-- Scroll to top -->
+  <div>
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2023</p>
+    </footer>
+  </div>
+
+  <i class="scroll-up" id="scroll-up"><img src="icons8-upward-arrow.gif" class="socicon up-arrow"
+    alt="scroll-up" /></i>
+  
+  <!-- Website scripts -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
